@@ -24,4 +24,5 @@ function draw() {
 // Create a new Walker object and push it into walkers[] array
 function spawnWalker() {
   walkers.push(new Walker(width/2, height/2));
+  document.getElementById("walkerCount").innerHTML = walkers.length;
 }
